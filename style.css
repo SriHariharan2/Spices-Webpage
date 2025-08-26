@@ -1,0 +1,63 @@
+:root{
+    --primary-color:orangered;
+}
+
+
+*{
+  
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.banner,.products,.offers{
+
+    padding: 80px;
+}
+
+.header{
+    background-color: var(--primary-color);
+}
+
+.header-wrap a{
+    color: antiquewhite;
+}
+
+.offers-wrap >div >div >div{
+      box-shadow: 5px 5px 10px 0px rgb(238, 232, 230);
+        border-radius: 20px;
+}
+
+.offers-wrap >div>div>div>div:nth-child(1):hover{
+    
+    transform:translateY(-50px) ;
+    transition: transform 0.3s all;
+}
+
+.products-wrap >div>div  {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer{
+    background-color: chocolate;
+    color: antiquewhite;
+}
+
+.footer-wrap{
+    padding: 50px;
+}
+.footer a{
+    color: antiquewhite;
+}
+
+.vertical a{
+    display: block;
+    margin-bottom: 5px;
+}
